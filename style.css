@@ -103,6 +103,7 @@ ul, ol {
     padding: 24px;
   }
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
