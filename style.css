@@ -14,10 +14,29 @@ margin: 0 auto;
 }
 
 header {
-background: linear-gradient(135deg, #0f766e, #115e59);
-color: white;
-text-align: center;
-padding: 80px 20px;
+  background: linear-gradient(135deg, #0b3d3a, #0f766e);
+  color: white;
+  text-align: left;
+  padding: 110px 20px 90px;
+}
+
+header .container {
+  max-width: 900px;
+}
+
+header h1 {
+  margin: 0 0 18px;
+  font-size: 3.4rem;
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 0 30px;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.88);
 }
 
 header h1 {
@@ -32,14 +51,20 @@ font-size: 1.1rem;
 }
 
 .btn {
-display: inline-block;
-margin-top: 20px;
-padding: 14px 28px;
-background: white;
-color: #0f766e;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
+  display: inline-block;
+  background: #ffffff;
+  color: #0f766e;
+  padding: 14px 24px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  background: #f3f4f6;
 }
 
 main {
