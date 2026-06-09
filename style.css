@@ -191,6 +191,10 @@ padding: 50px 0;
   .services-grid {
     grid-template-columns: 1fr;
   }
+
+  .testimonials-grid {
+  grid-template-columns: 1fr;
+}
 }
 
 ul, ol {
