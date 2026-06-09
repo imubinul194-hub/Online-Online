@@ -65,14 +65,29 @@
       </ol>
     </section>
 
-    <section class="card contact-section" id="contact">
-      <h2>Contact Us</h2>
-      <p>If you want help growing your business online, get in touch with us today.</p>
-      <p><strong>Email:</strong> contact@onlineonlineltd.com</p>
-      <p><strong>Phone:</strong> +44 07459930788</p>
-    </section>
-  </main>
+    <<section class="card contact-section" id="contact">
+  <h2>Contact Us</h2>
+  <p>If you want help growing your business online, send us a message below.</p>
 
-  <script src="script.js"></script>
-</body>
-</html>
+  <form action="https://formsubmit.co/contact@onlineonlineltd.com" method="POST" class="contact-form">
+    <input type="hidden" name="_subject" value="New enquiry from Online Online website">
+    <input type="hidden" name="_captcha" value="false">
+
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="business">Business Name</label>
+    <input type="text" id="business" name="business" placeholder="Enter your business name">
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Tell us how we can help" rows="6" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
+  <p><strong>Email:</strong> contact@onlineonlineltd.com</p>
+  <p><strong>Phone:</strong> 07459930788</p>
+</section>
