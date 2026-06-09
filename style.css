@@ -142,11 +142,31 @@ padding: 24px;
 }
 }
 
-.contact-intro {
-  margin-bottom: 24px;
-  color: #475569;
+.contact-section {
+  background: linear-gradient(135deg, #0b3d3a, #0f766e);
+  color: white;
+  padding: 42px;
+  border-radius: 20px;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.10);
 }
 
+.contact-section h2 {
+  color: white;
+  margin-bottom: 16px;
+}
+
+.contact-section p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 14px;
+}
+
+.contact-section strong {
+  color: white;
+}
+
+.contact-section .btn {
+  margin-top: 18px;
+}
 .contact-form {
   display: grid;
   gap: 18px;
