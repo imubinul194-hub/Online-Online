@@ -2,27 +2,104 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f7f7f7;
+  background: #f4f6f8;
   color: #222;
   line-height: 1.6;
 }
 
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 header {
-  background: #0f766e;
+  background: linear-gradient(135deg, #0f766e, #115e59);
   color: white;
   text-align: center;
-  padding: 40px 20px;
+  padding: 80px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: white;
+  color: #0f766e;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 main {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+  padding: 50px 0;
 }
 
-section {
+.card {
   background: white;
-  padding: 24px;
-  margin-bottom: 20px;
+  padding: 35px;
+  margin-bottom: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #0f766e;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.service-box {
+  background: #f8fafc;
+  padding: 20px;
   border-radius: 10px;
+  border-left: 4px solid #0f766e;
+}
+
+.service-box h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+.contact-section {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 60px 20px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 24px;
+  }
 }
